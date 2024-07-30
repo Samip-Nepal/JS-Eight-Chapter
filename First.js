@@ -32,16 +32,19 @@
 */
 // for class and object
 class teacher{
+    constructor(fulfillment){
+        console.log("Hi are you a teacher");
+        this.fulfillment=fulfillment;
+    }
 degree(){
 console.log("Should pass baachler");
 }
 experience(){
     console.log("Should have 5 years experience");
 }
-fee(zero){
-    this.zero=zero;
+
 }
-}
-let school=new teacher();
-school.fee("zero");
-let principle=new teacher();
+let school=new teacher("fulfillment");
+console.log(school);
+let principle=new teacher("ladies");
+console.log(principle);
