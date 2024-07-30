@@ -17,7 +17,7 @@
    }
    marks__proto__=samip*/
 
-    const marks={
+    /*const marks={
     calmarks(){
         console.log("Add 20 marks for handwriting");
     },
@@ -29,4 +29,19 @@
     },
    }
    marks__proto__=samip//here samip cal marks will printed
-
+*/
+// for class and object
+class teacher{
+degree(){
+console.log("Should pass baachler");
+}
+experience(){
+    console.log("Should have 5 years experience");
+}
+fee(zero){
+    this.zero=zero;
+}
+}
+let school=new teacher();
+school.fee("zero");
+let principle=new teacher();
