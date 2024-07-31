@@ -50,36 +50,36 @@ let principle=new teacher("ladies");
 console.log(principle);*/
 
 //parents child inheritange
-class parent{
+/*class parent{
     hello(){
         console.log("hi guys");
     }
 }
 class child extends parent{
 
-}
-let object=new parent();
+}*/
+//let object=new parent();
 //another example 
-class animal{
-    constructor(){
+class Animal {
+    constructor() {
         console.log("They are very cute");
     }
-    eat(){
+    eat() {
         console.log("They can eat");
     }
-    sleep(){
-        console.log("They can sleep")
+}
+
+class Carnivores extends Animal {
+    constructor() {
+        super(); 
+        console.log("They have legs");
+    }
+    eat() {
+        console.log("They only eat meat");
     }
 }
-class Herbivores extends animal{
-    eat(){
-        console.log("They only eat grass");
-    }
-}
-class Carnivores extends animal{
-eat(){
-    console.log("They only eat meat");
-}
-}
-let animals=new Carnivores();
-console.log(animals.eat);
+
+let animals = new Carnivores();
+animals.eat(); 
+
+
