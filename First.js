@@ -60,7 +60,7 @@ class child extends parent{
 }*/
 //let object=new parent();
 //another example 
-class Animal {
+/*class Animal {
     constructor() {
         console.log("They are very cute");
     }
@@ -80,6 +80,18 @@ class Carnivores extends Animal {
 }
 
 let animals = new Carnivores();
-animals.eat(); 
+animals.eat(); */
+//pratice qn 1
+class user{
+    constructor(name,email){
+    this.name=name,
+    this.email=email
+    }
+    viewdata(){
+        console.log("Useful information");
+    }
+};
+let staff1=new user("Samip","samipnepal5@gamil.com");
+let staff2=new user("Nepal","nepalsamip5@gamil.com");
 
 
