@@ -31,7 +31,7 @@
    marks__proto__=samip//here samip cal marks will printed
 */
 // for class and object
-class teacher{
+/*class teacher{
     constructor(fulfillment){
         console.log("Hi are you a teacher");
         this.fulfillment=fulfillment;
@@ -47,4 +47,39 @@ experience(){
 let school=new teacher("fulfillment");
 console.log(school);
 let principle=new teacher("ladies");
-console.log(principle);
+console.log(principle);*/
+
+//parents child inheritange
+class parent{
+    hello(){
+        console.log("hi guys");
+    }
+}
+class child extends parent{
+
+}
+let object=new parent();
+//another example 
+class animal{
+    constructor(){
+        console.log("They are very cute");
+    }
+    eat(){
+        console.log("They can eat");
+    }
+    sleep(){
+        console.log("They can sleep")
+    }
+}
+class Herbivores extends animal{
+    eat(){
+        console.log("They only eat grass");
+    }
+}
+class Carnivores extends animal{
+eat(){
+    console.log("They only eat meat");
+}
+}
+let animals=new Carnivores();
+console.log(animals.eat);
