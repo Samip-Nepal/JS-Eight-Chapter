@@ -81,7 +81,7 @@ class Carnivores extends Animal {
 
 let animals = new Carnivores();
 animals.eat(); */
-//pratice qn 1
+/*/pratice qn 1
 class user{
     constructor(name,email){
     this.name=name,
@@ -92,6 +92,30 @@ class user{
     }
 };
 let staff1=new user("Samip","samipnepal5@gamil.com");
+let staff2=new user("Nepal","nepalsamip5@gamil.com");*/
+
+class user{
+    constructor(name,email){
+    this.name=name,
+    this.email=email
+    }
+    viewdata(){
+        console.log("Useful information");
+    }
+}
+
+
+class Admin extends user{
+    constructor(name,email){
+super();
+    }
+editdata(){
+    let data="New data";
+
+}
+}
+let staff1=new user("Samip","samipnepal5@gamil.com");
 let staff2=new user("Nepal","nepalsamip5@gamil.com");
+ let Admin1=new Admin("Admin","admin@gamil.com");
 
 

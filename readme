@@ -1,1 +1,2 @@
 Qn 1. You are creating a website for your college.Create a class user with 2 properties,name and email.It also has method called viewdata()that allows user to view website data
+qn 2.Create a new class called admin which inherits from user . add a new method called editdata to admin that allows it to edit website data.
