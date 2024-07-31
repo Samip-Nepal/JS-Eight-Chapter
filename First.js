@@ -94,7 +94,7 @@ class user{
 let staff1=new user("Samip","samipnepal5@gamil.com");
 let staff2=new user("Nepal","nepalsamip5@gamil.com");*/
 
-class user{
+/*class user{
     constructor(name,email){
     this.name=name,
     this.email=email
@@ -117,5 +117,19 @@ editdata(){
 let staff1=new user("Samip","samipnepal5@gamil.com");
 let staff2=new user("Nepal","nepalsamip5@gamil.com");
  let Admin1=new Admin("Admin","admin@gamil.com");
-
+*/
+ 
+let a=5;
+let b=6;
+console.log("a+b",a+b);
+console.log("a+b",a+b);
+console.log("a+b",a+b);
+console.log("a+b",a+b);
+try{
+    console.log("a+b",a+c);
+}
+catch(err){
+    console.log(err);
+}
+console.log("a+b",a+b);
 
